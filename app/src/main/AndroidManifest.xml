@@ -11,6 +11,10 @@
         android:theme="@style/Theme.Doctors">
         <activity
             android:name=".MainActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".listOfDoctors"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

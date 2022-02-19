@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listOfDoctors">
+
+    <Button
+        android:id="@+id/ali_ahmadi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr.Ali Ahmadi"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/mina_sadeghi"
+        app:layout_constraintTop_toBottomOf="@id/ali_ahmadi"
+        app:layout_constraintStart_toStartOf="@id/ali_ahmadi"
+        app:layout_constraintEnd_toEndOf="@id/ali_ahmadi"
+        android:layout_marginTop="20sp"
+        android:text="Dr.Mina Sadeghi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/maryam_alavi"
+        app:layout_constraintTop_toBottomOf="@id/mina_sadeghi"
+        android:layout_marginTop="20sp"
+        android:text="Dr.Maryam alavi"
+        app:layout_constraintStart_toStartOf="@id/mina_sadeghi"
+        app:layout_constraintEnd_toEndOf="@id/mina_sadeghi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/shahab_mohamadi"
+        app:layout_constraintTop_toBottomOf="@id/maryam_alavi"
+        android:layout_marginTop="20sp"
+        android:text="Dr.Shahab Mohammadi"
+        app:layout_constraintStart_toStartOf="@id/maryam_alavi"
+        app:layout_constraintEnd_toEndOf="@id/maryam_alavi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/shirin_alavi"
+        app:layout_constraintStart_toStartOf="@id/shahab_mohamadi"
+        app:layout_constraintEnd_toEndOf="@id/shahab_mohamadi"
+        app:layout_constraintTop_toBottomOf="@id/shahab_mohamadi"
+        android:layout_marginTop="20sp"
+        android:text="Dr.Shirin Alavi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
