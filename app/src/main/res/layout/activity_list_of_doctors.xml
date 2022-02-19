@@ -15,7 +15,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dr.Ali Ahmadi"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:backgroundTint="@color/listOfDoctors"
+        android:textColor="@color/black"/>
 
     <Button
         android:id="@+id/mina_sadeghi"
@@ -26,7 +28,9 @@
         android:text="Dr.Mina Sadeghi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:backgroundTint="@color/listOfDoctors"
+        android:textColor="@color/black"/>
 
     <Button
         android:id="@+id/maryam_alavi"
@@ -37,7 +41,9 @@
         app:layout_constraintEnd_toEndOf="@id/mina_sadeghi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:backgroundTint="@color/listOfDoctors"
+        android:textColor="@color/black"/>
 
     <Button
         android:id="@+id/shahab_mohamadi"
@@ -48,7 +54,9 @@
         app:layout_constraintEnd_toEndOf="@id/maryam_alavi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:backgroundTint="@color/listOfDoctors"
+        android:textColor="@color/black"/>
 
     <Button
         android:id="@+id/shirin_alavi"
@@ -59,7 +67,9 @@
         android:text="Dr.Shirin Alavi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:backgroundTint="@color/listOfDoctors"
+        android:textColor="@color/black"/>
 
 
 
