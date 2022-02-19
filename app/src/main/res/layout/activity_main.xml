@@ -4,4 +4,110 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="2dp"
+    tools:layout_editor_absoluteY="-131dp">
+
+
+
+    <ImageView
+        android:id="@+id/imageDoctor1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048"
+        app:srcCompat="@drawable/sdfsd" />
+
+
+    <TextView
+        android:id="@+id/text_doctorsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. FatemeNoora"
+        app:layout_constraintStart_toEndOf="@id/imageDoctor1"
+        app:layout_constraintTop_toTopOf="@id/imageDoctor1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/text_doctorsAdresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Pediatrician"
+        app:layout_constraintTop_toBottomOf="@id/text_doctorsName"
+        app:layout_constraintStart_toStartOf="@id/text_doctorsName"/>
+
+
+    <ImageView
+        android:id="@+id/imageDoctor2"
+        android:layout_width="300dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@id/imageDoctor1"
+        app:layout_constraintTop_toBottomOf="@id/imageDoctor1"
+        app:srcCompat="@drawable/doctorexaminingbabyboy" />
+
+    <Button
+        android:id="@+id/buttonOnlineVisit"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:backgroundTint="@color/online_visit"
+        android:drawableTop="@drawable/doctorsonline"
+        android:text="@string/online_visit"
+        android:textColor="@color/black"
+        app:cornerRadius="30dp"
+        app:layout_constraintStart_toStartOf="@id/imageDoctor2"
+        app:layout_constraintTop_toBottomOf="@id/imageDoctor2"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="10dp"/>
+
+    <Button
+        android:id="@+id/butttonHomeVisit"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:backgroundTint="@color/home_visit"
+        android:drawableTop="@drawable/home"
+        android:text="@string/home_visit"
+        android:textColor="@color/black"
+        app:cornerRadius="30dp"
+        app:layout_constraintTop_toTopOf="@id/buttonOnlineVisit"
+        app:layout_constraintStart_toEndOf="@id/buttonOnlineVisit"
+        android:layout_marginStart="40dp"/>
+
+    <Button
+        android:id="@+id/buttonBabyBook"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:backgroundTint="@color/baby_book"
+        android:drawableTop="@drawable/book12"
+        android:text="@string/baby_s_book"
+        android:textColor="@color/black"
+        app:cornerRadius="30dp"
+app:layout_constraintTop_toBottomOf="@id/buttonOnlineVisit"
+        app:layout_constraintStart_toStartOf="@id/buttonOnlineVisit"
+        android:layout_marginTop="20sp"/>
+
+    <Button
+        android:id="@+id/buttonFavatite"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:backgroundTint="@color/faivarite"
+        android:drawableTop="@drawable/heart"
+        android:text="@string/favorites"
+        android:textColor="@color/black"
+        app:cornerRadius="30dp"
+        app:layout_constraintTop_toBottomOf="@id/butttonHomeVisit"
+        app:layout_constraintStart_toStartOf="@id/butttonHomeVisit"
+        android:layout_marginTop="20sp"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

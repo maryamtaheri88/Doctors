@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">پزشکان</string>
+    <string name="favorites">علاقه مندی ها</string>
+    <string name="home_visit">معاینه در منزل</string>
+    <string name="baby_s_book">کتاب کودک</string>
+    <string name="online_visit">معاینه بر خط</string>
+</resources>

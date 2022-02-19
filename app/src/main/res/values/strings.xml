@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Doctors</string>
+    <string name="favorites">favorite</string>
+    <string name="home_visit">home visit</string>
+    <string name="baby_s_book">baby`s book</string>
+    <string name="online_visit">online visit</string>
+    <string name="app_name">Doctor</string>
 </resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اطبا</string>
+    <string name="baby_s_book">كتاب الأطفال</string>
+    <string name="favorites">المفضلة</string>
+    <string name="home_visit">زيارة منزلية</string>
+    <string name="online_visit">زيارة عبر الإنترنت</string>
+</resources>
