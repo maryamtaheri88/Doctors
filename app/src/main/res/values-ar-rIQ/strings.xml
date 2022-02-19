@@ -12,4 +12,7 @@
     <string name="dr_shirin_alavi">د / شیرین علوی</string>
     <string name="expertise">خبرة</string>
     <string name="pediatrician">طبيب الأطفال</string>
+    <string name="address">عنوان</string>
+    <string name="phone">هاتف</string>
+    <string name="name">اسم</string>
 </resources>

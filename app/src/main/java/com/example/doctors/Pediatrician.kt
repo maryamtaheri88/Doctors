@@ -7,11 +7,11 @@ class Pediatrician {
         addlistOfPediatrician()
     }
 
-    var doctor1 = DoctorInfo("ali ahmadi","Shahrake gharb", 463846)
-    var doctor2 = DoctorInfo("mina sadeghi","Tajrish",483837)
-    var doctor3 = DoctorInfo("maryam alavi","Monirie",1241233)
-    var doctor4 = DoctorInfo("shahab mohamadi","Shosh",7394739)
-    var doctor5 = DoctorInfo("shirin alavi","enghelab",635728)
+    var doctor1 = DoctorInfo("Ali Ahmadi","Shahrake gharb", 463846)
+    var doctor2 = DoctorInfo("Nina Sadeghi","Tajrish",483837)
+    var doctor3 = DoctorInfo("Maryam Alavi","Monirie",1241233)
+    var doctor4 = DoctorInfo("Shahab Mohamadi","Shosh",7394739)
+    var doctor5 = DoctorInfo("Shirin Alavi","enghelab",635728)
 
 
     fun addlistOfPediatrician(){

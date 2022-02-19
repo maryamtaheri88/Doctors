@@ -11,4 +11,8 @@
     <string name="dr_shirin_alavi">Dr.Shirin Alavi</string>
     <string name="expertise">Expertise</string>
     <string name="pediatrician">Pediatrician</string>
+    <string name="phone">phone</string>
+    <string name="address">address</string>
+    <string name="name">name</string>
+
 </resources>
