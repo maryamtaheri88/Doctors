@@ -14,10 +14,10 @@
         android:layout_marginTop="150dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dr.Ali Ahmadi"
+        android:text="@string/ali_ahmadi"
         android:textAllCaps="false"
         android:backgroundTint="@color/listOfDoctors"
-        android:textColor="@color/black"/>
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/mina_sadeghi"
@@ -25,38 +25,38 @@
         app:layout_constraintStart_toStartOf="@id/ali_ahmadi"
         app:layout_constraintEnd_toEndOf="@id/ali_ahmadi"
         android:layout_marginTop="20sp"
-        android:text="Dr.Mina Sadeghi"
+        android:text="@string/dr_mina_sadeghi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
         android:backgroundTint="@color/listOfDoctors"
-        android:textColor="@color/black"/>
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/maryam_alavi"
         app:layout_constraintTop_toBottomOf="@id/mina_sadeghi"
         android:layout_marginTop="20sp"
-        android:text="Dr.Maryam alavi"
+        android:text="@string/dr_maryam_alavi"
         app:layout_constraintStart_toStartOf="@id/mina_sadeghi"
         app:layout_constraintEnd_toEndOf="@id/mina_sadeghi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
         android:backgroundTint="@color/listOfDoctors"
-        android:textColor="@color/black"/>
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/shahab_mohamadi"
         app:layout_constraintTop_toBottomOf="@id/maryam_alavi"
         android:layout_marginTop="20sp"
-        android:text="Dr.Shahab Mohammadi"
+        android:text="@string/dr_shahab_mohammadi"
         app:layout_constraintStart_toStartOf="@id/maryam_alavi"
         app:layout_constraintEnd_toEndOf="@id/maryam_alavi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
         android:backgroundTint="@color/listOfDoctors"
-        android:textColor="@color/black"/>
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/shirin_alavi"
@@ -64,12 +64,12 @@
         app:layout_constraintEnd_toEndOf="@id/shahab_mohamadi"
         app:layout_constraintTop_toBottomOf="@id/shahab_mohamadi"
         android:layout_marginTop="20sp"
-        android:text="Dr.Shirin Alavi"
+        android:text="@string/dr_shirin_alavi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
         android:backgroundTint="@color/listOfDoctors"
-        android:textColor="@color/black"/>
+        android:textColor="@color/white"/>
 
 
 

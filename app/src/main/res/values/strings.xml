@@ -4,4 +4,9 @@
     <string name="baby_s_book">baby`s book</string>
     <string name="online_visit">online visit</string>
     <string name="app_name">Doctor</string>
+    <string name="ali_ahmadi">Dr.Ali Ahmadi</string>
+    <string name="dr_mina_sadeghi">Dr.Mina Sadeghi</string>
+    <string name="dr_maryam_alavi">Dr.Maryam alavi</string>
+    <string name="dr_shahab_mohammadi">Dr.Shahab Mohammadi</string>
+    <string name="dr_shirin_alavi">Dr.Shirin Alavi</string>
 </resources>
