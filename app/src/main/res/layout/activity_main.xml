@@ -31,7 +31,7 @@
         app:layout_constraintStart_toEndOf="@id/imageDoctor1"
         app:layout_constraintTop_toTopOf="@id/imageDoctor1"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="5dpdp"/>
+        android:layout_marginTop="5dp"/>
 
     <TextView
         android:id="@+id/text_doctorsAdresse"
