@@ -22,6 +22,7 @@ class listOfDoctors : AppCompatActivity() {
 
         var pediatrician = Pediatrician()
 
+
         binding.aliAhmadi.setOnClickListener{
 
 

@@ -9,6 +9,16 @@
     tools:layout_editor_absoluteY="-131dp">
 
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.doctors.infodoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@id/imageDoctor1"
+        app:layout_constraintStart_toEndOf="@id/imageDoctor1"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageView
         android:id="@+id/imageDoctor1"
@@ -23,33 +33,33 @@
         app:srcCompat="@drawable/sdfsd" />
 
 
-    <TextView
-        android:id="@+id/text_doctorsName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/name"
-        app:layout_constraintStart_toEndOf="@id/imageDoctor1"
-        app:layout_constraintTop_toTopOf="@id/imageDoctor1"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp"/>
+<!--    <TextView-->
+<!--        android:id="@+id/text_doctorsName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/name"-->
+<!--        app:layout_constraintStart_toEndOf="@id/imageDoctor1"-->
+<!--        app:layout_constraintTop_toTopOf="@id/imageDoctor1"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginTop="5dp"/>-->
 
-    <TextView
-        android:id="@+id/text_doctorsAdresse"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="@string/address"
-        app:layout_constraintTop_toBottomOf="@id/text_doctorsName"
-        app:layout_constraintStart_toStartOf="@id/text_doctorsName"/>
+<!--    <TextView-->
+<!--        android:id="@+id/text_doctorsAdresse"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:text="@string/address"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/text_doctorsName"-->
+<!--        app:layout_constraintStart_toStartOf="@id/text_doctorsName"/>-->
 
-    <TextView
-        android:id="@+id/text_doctorphone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="@string/phone"
-        app:layout_constraintTop_toBottomOf="@id/text_doctorsAdresse"
-        app:layout_constraintStart_toStartOf="@id/text_doctorsAdresse"/>
+<!--    <TextView-->
+<!--        android:id="@+id/text_doctorphone"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:text="@string/phone"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/text_doctorsAdresse"-->
+<!--        app:layout_constraintStart_toStartOf="@id/text_doctorsAdresse"/>-->
 
 
     <ImageView
@@ -115,8 +125,7 @@ app:layout_constraintTop_toBottomOf="@id/buttonOnlineVisit"
         app:layout_constraintStart_toStartOf="@id/butttonHomeVisit"
         android:layout_marginTop="20sp"/>
 
-
-
+  >
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/maryi/AndroidStudioProjects/Doctors/app/src/main/res/layout/activity_list_of_doctors.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/maryi/AndroidStudioProjects/Doctors/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/maryi/AndroidStudioProjects/Doctors/app/src/main/res/layout/activity_main.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/maryi/AndroidStudioProjects/Doctors/app/src/main/res/layout/fragment_infodoctor.xml" value="0.22" />
       </map>
     </option>
   </component>
