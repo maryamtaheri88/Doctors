@@ -15,5 +15,6 @@
     <string name="address">آدرس</string>
     <string name="phone">تلفن</string>
     <string name="name">نام</string>
+    <string name="Pediatrician">منخصص اطفال</string>
 
 </resources>

@@ -12,6 +12,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        this.setTitle(getString(R.string.Pediatrician))
+
+
         binding.textDoctorsName.text = intent.getStringExtra("name")
         binding.textDoctorsAdresse.text =  intent.getStringExtra("address")
         binding.textDoctorphone.text = intent.getIntExtra("phone",0).toString()
