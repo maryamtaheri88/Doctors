@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.doctors.databinding.ActivityMainBinding
 
+  const val DOCTOR = ""
+
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding :ActivityMainBinding
@@ -12,12 +14,14 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        this.setTitle(getString(R.string.Pediatrician))
+        val getInfo = intent.getParcelableExtra<DoctorInfo>(DOCTOR)
+
+        this.title= getInfo?.name
 
 
-        binding.textDoctorsName.text = intent.getStringExtra("name")
-        binding.textDoctorsAdresse.text =  intent.getStringExtra("address")
-        binding.textDoctorphone.text = intent.getIntExtra("phone",0).toString()
+        binding.textDoctorsName.text = getInfo?.name
+        binding.textDoctorsAdresse.text =  getInfo?.address
+        binding.textDoctorphone.text = getInfo?.phone.toString()
 
     }
 }
