@@ -2,6 +2,7 @@ package com.example.doctors
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Parcelable
 import com.example.doctors.databinding.ActivityMainBinding
 
   const val DOCTOR = ""
@@ -16,12 +17,13 @@ class MainActivity : AppCompatActivity() {
 
         val getInfo = intent.getParcelableExtra<DoctorInfo>(DOCTOR)
 
-        this.title= getInfo?.name
-
 
         binding.textDoctorsName.text = getInfo?.name
-        binding.textDoctorsAdresse.text =  getInfo?.address
-        binding.textDoctorphone.text = getInfo?.phone.toString()
+        binding.textDoctorsAdresse.text = getInfo?.name
+        binding.textDoctorPhone.text = getInfo?.phone?.toString()
+
+
+             this.title= getInfo?.name
 
     }
 }
